@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTCOneWithKeyboard", "HTCOneWithKeyboard\HTCOneWithKeyboard.csproj", "{57fbe4b6-9546-4de2-b0aa-0266cc629a18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTCOneWithKeyboardScreens", "HTCOneWithKeyboard\HTCOneWithKeyboardScreens\HTCOneWithKeyboardScreens.csproj", "{3ab3977c-58df-4626-81f8-f4c372ebb639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AB3977C-58DF-4626-81F8-F4C372EBB639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB3977C-58DF-4626-81F8-F4C372EBB639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB3977C-58DF-4626-81F8-F4C372EBB639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB3977C-58DF-4626-81F8-F4C372EBB639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FBE4B6-9546-4DE2-B0AA-0266CC629A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FBE4B6-9546-4DE2-B0AA-0266CC629A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FBE4B6-9546-4DE2-B0AA-0266CC629A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FBE4B6-9546-4DE2-B0AA-0266CC629A18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\HTCOneWithKeyboard\HTCOneWithKeyboard\bin\Debug\HTCOneWithKeyboard.Screens.dll
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\HTCOneWithKeyboard\HTCOneWithKeyboard\bin\Debug\HTCOneWithKeyboard.Screens.pdb
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\HTCOneWithKeyboard\HTCOneWithKeyboard\HTCOneWithKeyboardScreens\obj\Debug\HTCOneBase.baml
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\HTCOneWithKeyboard\HTCOneWithKeyboard\HTCOneWithKeyboardScreens\obj\Debug\SketchStyles.baml
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\HTCOneWithKeyboard\HTCOneWithKeyboard\HTCOneWithKeyboardScreens\obj\Debug\HTCOneBase.g.cs
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\HTCOneWithKeyboard\HTCOneWithKeyboard\HTCOneWithKeyboardScreens\obj\Debug\Screen_1.g.cs
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\HTCOneWithKeyboard\HTCOneWithKeyboard\HTCOneWithKeyboardScreens\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\HTCOneWithKeyboard\HTCOneWithKeyboard\HTCOneWithKeyboardScreens\obj\Debug\HTCOneWithKeyboard.Screens_MarkupCompile.cache
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\HTCOneWithKeyboard\HTCOneWithKeyboard\HTCOneWithKeyboardScreens\obj\Debug\HTCOneWithKeyboard.Screens_MarkupCompile.lref
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\HTCOneWithKeyboard\HTCOneWithKeyboard\HTCOneWithKeyboardScreens\obj\Debug\Screen_1.baml
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\HTCOneWithKeyboard\HTCOneWithKeyboard\HTCOneWithKeyboardScreens\obj\Debug\HTCOneWithKeyboard.Screens.g.resources
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\HTCOneWithKeyboard\HTCOneWithKeyboard\HTCOneWithKeyboardScreens\obj\Debug\HTCOneWithKeyboard.Screens.dll
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\HTCOneWithKeyboard\HTCOneWithKeyboard\HTCOneWithKeyboardScreens\obj\Debug\HTCOneWithKeyboard.Screens.pdb
