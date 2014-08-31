@@ -1,0 +1,44 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" x:Name="WPShells_SanjayAtPilcrowScreens_PhoneFrameL1520_Name"
+	mc:Ignorable="d"
+	x:Class="WPShells_SanjayAtPilcrowScreens.PhoneFrameL925"
+	Width="591" Height="1145">
+	<Grid x:Name="LayoutRoot" Width="Auto">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+		<Path x:Name="Background" Data="M544.58003,149.37138 L46.49999,146.49999 45.424345,997.38605 546,998 z M0.50033302,2.4985676 L590.52333,2.4777523 590.52333,1146.5065 0.51593163,1146.5217 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1145.036" Margin="0,-0.021,-0.021,-0.015" Grid.RowSpan="3" Stretch="Fill" VerticalAlignment="Top" Width="591.021"/>
+		<Image Grid.Row="0" Source="Images/DeviceShells/L925/L925-top.png" Width="591" Height="158" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" />
+		<Grid Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			<Image Grid.Column="0" Source="Images/DeviceShells/L925/L925-left.png" Width="52" Height="829" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,-1" />
+			<Image Grid.Column="2" Source="Images/DeviceShells/L925/L925-right.png" Width="58" Height="829" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,-1" />
+		</Grid>
+		<Grid Grid.Row="2">
+			<Image Grid.Column="2" Source="Images/DeviceShells/L925/L925-bottom.png" Width="591" Height="161" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" />
+			<Ellipse Fill="#0EF4F4F5" HorizontalAlignment="Left" Height="45" Margin="92,9,0,0" Stroke="Black" VerticalAlignment="Top" Width="45" Cursor="Hand">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="MouseLeftButtonDown">
+						<pi:NavigateBackAction/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Ellipse>
+			<Ellipse Fill="#0CF4F4F5" HorizontalAlignment="Left" Height="45" Margin="273,8.75,0,0" Stroke="Black" VerticalAlignment="Top" Width="45" Cursor="Hand">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="MouseLeftButtonDown">
+						<pi:NavigateToScreenAction TargetScreen="WPShells_SanjayAtPilcrowScreens.Screen_1"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Ellipse>
+		</Grid>
+	</Grid>
+</UserControl>
