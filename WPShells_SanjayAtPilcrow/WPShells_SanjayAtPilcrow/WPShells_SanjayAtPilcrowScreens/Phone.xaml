@@ -5,7 +5,7 @@
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:WPShells_SanjayAtPilcrowScreens" xmlns:Anno="http://schemas.microsoft.com/expression/blend/extensions/annotations/2008" x:Name="WPShells_SanjayAtPilcrowScreens_Phone_Name"
 	mc:Ignorable="d Anno"
 	x:Class="WPShells_SanjayAtPilcrowScreens.Phone"
-	Width="591" Height="1145">
+	Width="591" Height="1145" Style="{DynamicResource FocusControl-Sketch}">
 
 	<Grid x:Name="LayoutRoot">
 		<VisualStateManager.VisualStateGroups>
@@ -27,6 +27,9 @@
 							<EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
 							<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
 						</DoubleAnimationUsingKeyFrames>
+						<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="ImageKeyboard">
+							<EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+						</DoubleAnimationUsingKeyFrames>
 					</Storyboard>
 				</VisualState>
 				<VisualState x:Name="PhoneKeyboardSlideDown">
@@ -45,6 +48,10 @@
 							<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
 							<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
 						</DoubleAnimationUsingKeyFrames>
+						<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="ImageKeyboard" BeginTime="0:0:0.3">
+							<EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.5"/>
+							<EasingDoubleKeyFrame KeyTime="0:0:0.175" Value="0.5"/>
+						</DoubleAnimationUsingKeyFrames>
 					</Storyboard>
 				</VisualState>
 			</VisualStateGroup>
@@ -54,10 +61,10 @@
 				<RowDefinition Height="Auto"/>
 				<RowDefinition Height="Auto"/>
 			</Grid.RowDefinitions>
-			<Image x:Name="ImageKeyboard" HorizontalAlignment="Left" Height="202" Margin="0,0,0,-1" VerticalAlignment="Top" Width="490" Source="phone-keyboard1.png" RenderTransformOrigin="0.5,0.5" Opacity="0" Visibility="Collapsed">
+			<Image x:Name="ImageKeyboard" HorizontalAlignment="Left" Height="202" Margin="0,0,0,-1" VerticalAlignment="Top" Width="490" Source="phone-keyboard1.png" RenderTransformOrigin="0.5,0" Opacity="0" Visibility="Collapsed">
 				<Image.RenderTransform>
 					<TransformGroup>
-						<ScaleTransform/>
+						<ScaleTransform ScaleY="0.5"/>
 						<SkewTransform/>
 						<RotateTransform/>
 						<TranslateTransform Y="171"/>

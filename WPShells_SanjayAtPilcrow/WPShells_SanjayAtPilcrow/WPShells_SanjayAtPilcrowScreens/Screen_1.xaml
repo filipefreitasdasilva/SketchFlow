@@ -7,7 +7,7 @@
 	x:Class="WPShells_SanjayAtPilcrowScreens.Screen_1"
 	Width="591" Height="1145">
 
-	<Grid x:Name="LayoutRoot" Background="White">
+	<Grid x:Name="LayoutRoot">
 		<i:Interaction.Triggers>
 			<i:EventTrigger>
 				<pi:ActivateStateAction TargetState="PhoneFrameBubbleUp"/>
@@ -17,43 +17,52 @@
 			<VisualStateGroup x:Name="PhoneFrame">
 				<VisualState x:Name="PhoneFrameBubbleUp">
 					<Storyboard>
-						<Int32AnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.ZIndex)" Storyboard.TargetName="phone">
+						<Int32AnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.ZIndex)" Storyboard.TargetName="PhoneFrame1">
 							<EasingInt32KeyFrame KeyTime="0" Value="100"/>
 						</Int32AnimationUsingKeyFrames>
 					</Storyboard>
 				</VisualState>
 			</VisualStateGroup>
 		</VisualStateManager.VisualStateGroups>
-		<local:Phone x:Name="phone" HorizontalAlignment="Left" Margin="0,0,0,-377" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
-		<Button HorizontalAlignment="Left" Height="138" Margin="225,494,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="295.5" Background="#FFFBBB30" FontSize="40" Cursor="Hand">
-			<Button.Content>
+		<Rectangle x:Name="RectangleScreenBack" HorizontalAlignment="Left" Height="868" Margin="42,132,0,0" VerticalAlignment="Top" Width="504" Fill="White"/>
+		<local:Phone x:Name="PhoneFrame1" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+		<Grid Margin="69,175.5,69,189.5" RenderTransformOrigin="0.5,0.5">
+			<Grid.LayoutTransform>
+				<TransformGroup>
+					<ScaleTransform ScaleY="1" ScaleX="1"/>
+					<SkewTransform AngleY="0" AngleX="0"/>
+					<RotateTransform Angle="0"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Grid.LayoutTransform>
+			<Button HorizontalAlignment="Left" Height="138" Margin="156,318.5,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="295.5" Background="#FFFBBB30" FontSize="40" Cursor="Hand">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="WPShells_SanjayAtPilcrowScreens.AppMainPage"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
 				<Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-					<TextBlock Text="Our Prototype" TextWrapping="Wrap" Width="150" TextAlignment="Center"></TextBlock>
+					<TextBlock Text="Our Prototype" TextWrapping="Wrap" Width="150" TextAlignment="Center"/>
 				</Grid>
-			</Button.Content>
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="Click">
-					<pi:NavigateToScreenAction TargetScreen="WPShells_SanjayAtPilcrowScreens.AppMainPage"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</Button>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="382.5,175.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="225,333,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="297"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="223.5,175.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="70.5,175.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="69,333,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="147,333,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="69,411,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="147,411,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="69,493,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="147,493,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="69,571,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="147,571,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="382.5,655.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="223.5,655.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="70.5,655.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="382.5,817.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="223.5,817.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="70.5,817.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
+			</Button>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="313.5,0,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="156,157.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="297"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="154.5,0,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="1.5,0,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="0,157.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="78,157.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="0,235.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="78,235.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="0,317.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="78,317.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="0,395.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="60" Margin="78,395.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="60"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="313.5,480,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="154.5,480,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="1.5,480,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="313.5,642,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="154.5,642,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
+			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="138" Margin="1.5,642,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="138"/>
+		</Grid>
 	</Grid>
 </UserControl>

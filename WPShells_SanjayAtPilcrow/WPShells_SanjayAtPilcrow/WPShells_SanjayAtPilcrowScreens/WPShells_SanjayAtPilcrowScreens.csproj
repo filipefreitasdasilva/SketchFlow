@@ -63,9 +63,6 @@
     <Compile Include="AppMainPage.xaml.cs">
       <DependentUpon>AppMainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Level3Page.xaml.cs">
-      <DependentUpon>Level3Page.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Phone.xaml.cs">
       <DependentUpon>Phone.xaml</DependentUpon>
     </Compile>
@@ -85,10 +82,6 @@
       <DependentUpon>Screen_1.xaml</DependentUpon>
     </Compile>
     <Page Include="AppMainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Level3Page.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

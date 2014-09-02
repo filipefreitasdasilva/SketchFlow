@@ -87,18 +87,6 @@
       </Position>
       <VisualTag>1</VisualTag>
     </Screen>
-    <Screen>
-      <Type>Navigation</Type>
-      <ClassName>WPShells_SanjayAtPilcrowScreens.Level3Page</ClassName>
-      <DisplayName>Level3Page</DisplayName>
-      <FileName>Level3Page.xaml</FileName>
-      <Annotations />
-      <Position>
-        <X>207</X>
-        <Y>96</Y>
-      </Position>
-      <VisualTag>0</VisualTag>
-    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -151,20 +139,6 @@
       <VisualTag>0</VisualTag>
     </Connection>
     <Connection>
-      <Source>WPShells_SanjayAtPilcrowScreens.Level3Page</Source>
-      <Target>WPShells_SanjayAtPilcrowScreens.Phone</Target>
-      <Type>Composition</Type>
-      <TransitionType>None</TransitionType>
-      <VisualTag>1</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>WPShells_SanjayAtPilcrowScreens.AppMainPage</Source>
-      <Target>WPShells_SanjayAtPilcrowScreens.Level3Page</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
       <Source>WPShells_SanjayAtPilcrowScreens.Phone</Source>
       <Target>WPShells_SanjayAtPilcrowScreens.PhoneFrameL925</Target>
       <Type>Composition</Type>
@@ -207,7 +181,7 @@
       <Color>FF780099</Color>
     </VisualTag>
     <VisualTag>
-      <Name>Gray</Name>
+      <Name />
       <Color>FF6B6B6B</Color>
     </VisualTag>
     <VisualTag>
@@ -219,7 +193,7 @@
     <Zoom>1.25</Zoom>
     <Center>
       <X>63.9511797203037</X>
-      <Y>-14.149122558234016</Y>
+      <Y>76.14491717686532</Y>
     </Center>
   </ViewState>
 </Data>

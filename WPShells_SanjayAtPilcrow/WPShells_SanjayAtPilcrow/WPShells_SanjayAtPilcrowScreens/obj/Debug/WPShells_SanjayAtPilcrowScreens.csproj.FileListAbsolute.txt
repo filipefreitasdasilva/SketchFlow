@@ -21,5 +21,3 @@ E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsP
 E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\WPShells_SanjayAtPilcrow\WPShells_SanjayAtPilcrow\WPShells_SanjayAtPilcrowScreens\obj\Debug\PhoneFrameL925.g.cs
 E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\WPShells_SanjayAtPilcrow\WPShells_SanjayAtPilcrow\WPShells_SanjayAtPilcrowScreens\obj\Debug\PhoneFrameHTCOne.baml
 E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\WPShells_SanjayAtPilcrow\WPShells_SanjayAtPilcrow\WPShells_SanjayAtPilcrowScreens\obj\Debug\PhoneFrameHTCOne.g.cs
-E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\WPShells_SanjayAtPilcrow\WPShells_SanjayAtPilcrow\WPShells_SanjayAtPilcrowScreens\obj\Debug\Level3Page.g.cs
-E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\WindowsPhone\WPShells_SanjayAtPilcrow\WPShells_SanjayAtPilcrow\WPShells_SanjayAtPilcrowScreens\obj\Debug\Level3Page.baml

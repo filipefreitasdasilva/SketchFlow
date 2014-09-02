@@ -7,7 +7,7 @@
 	x:Class="WPShells_SanjayAtPilcrowScreens.AppMainPage"
 	Width="591" Height="1145">
 
-	<Grid x:Name="LayoutRoot" Background="White">
+	<Grid x:Name="LayoutRoot">
 		<VisualStateManager.VisualStateGroups>
 			<VisualStateGroup x:Name="PhoneFrameStates">
 				<VisualState x:Name="PhoneFrameZIndexTop">
@@ -24,6 +24,7 @@
 				<pi:ActivateStateAction TargetState="PhoneFrameZIndexTop"/>
 			</i:EventTrigger>
 		</i:Interaction.Triggers>
+		<Rectangle x:Name="RectangleScreenBack" HorizontalAlignment="Left" Height="868" Margin="42,132,0,0" VerticalAlignment="Top" Width="504" Fill="White"/>
 		<local:Phone x:Name="phone" HorizontalAlignment="Left" Margin="0,0,0,-377" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
 		<Grid x:Name="AppContent" Margin="54,158,60,163">
 			<TextBox HorizontalAlignment="Left" Height="44" Style="{DynamicResource BasicTextBox-Sketch}" TextWrapping="Wrap" Text="type user id" VerticalAlignment="Top" Width="216" VerticalContentAlignment="Center" Margin="187.165,208.239,0,0">
@@ -49,13 +50,7 @@
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</PasswordBox>
-			<Button Content="Log In" HorizontalAlignment="Left" Height="43" Margin="187.165,424.239,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="216">
-				<i:Interaction.Triggers>
-					<i:EventTrigger EventName="Click">
-						<pi:NavigateToScreenAction TargetScreen="WPShells_SanjayAtPilcrowScreens.Level3Page"/>
-					</i:EventTrigger>
-				</i:Interaction.Triggers>
-			</Button>			
+			<Button Content="Log In" HorizontalAlignment="Left" Height="43" Margin="187.165,424.239,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="216"/>			
 		</Grid>
 	</Grid>
 </UserControl>
