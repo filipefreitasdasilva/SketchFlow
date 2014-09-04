@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPhoneShells_SanjayAtPilcrow", "iPhoneShells_SanjayAtPilcrow\iPhoneShells_SanjayAtPilcrow.csproj", "{24b64392-1547-47a2-99a9-ca7f74eb29ff}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPhoneShells_SanjayAtPilcrowScreens", "iPhoneShells_SanjayAtPilcrow\iPhoneShells_SanjayAtPilcrowScreens\iPhoneShells_SanjayAtPilcrowScreens.csproj", "{67173906-95b6-4872-a756-7e62b38f6b12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24B64392-1547-47A2-99A9-CA7F74EB29FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B64392-1547-47A2-99A9-CA7F74EB29FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B64392-1547-47A2-99A9-CA7F74EB29FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B64392-1547-47A2-99A9-CA7F74EB29FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67173906-95B6-4872-A756-7E62B38F6B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67173906-95B6-4872-A756-7E62B38F6B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67173906-95B6-4872-A756-7E62B38F6B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67173906-95B6-4872-A756-7E62B38F6B12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

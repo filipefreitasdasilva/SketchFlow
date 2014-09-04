@@ -1,0 +1,12 @@
+// --------------------------------------------------------
+// [KEEP THIS FILE]
+// 2014-08-31
+// Code of this Template Project for SketchFlow is destributed under MS-PL License
+// Images of phones (iPhone) are design properties of their respective owners.
+// Project Creator: Sanjay Sharma (Twitter @SanjayAtPilcrow)
+// Website: http://www.pilcrowapps.com
+// Blog: http://sharpsnippets.wordpress.com
+// Email: [Find it on my blog]
+// Disclaimer: The code in this project is provided under MS-PL. I am not a lawyer and don't know the finesses of MS-PL but what I would emphasize is - though the code is tested but use it at your own risk  and if you wish to  distribute this code, keep this file in the package.
+// --------------------------------------------------------
+[Add information about you below this and brief list of updates you have made]
