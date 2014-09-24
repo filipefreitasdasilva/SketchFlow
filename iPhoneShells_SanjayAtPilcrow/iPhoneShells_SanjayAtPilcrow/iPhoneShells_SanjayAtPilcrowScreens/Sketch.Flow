@@ -76,13 +76,6 @@
     </Connection>
     <Connection>
       <Source>iPhoneShells_SanjayAtPilcrowScreens.Phone</Source>
-      <Target>iPhoneShells_SanjayAtPilcrowScreens.PhoneFrameiPhone</Target>
-      <Type>Composition</Type>
-      <TransitionType>None</TransitionType>
-      <VisualTag>1</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>iPhoneShells_SanjayAtPilcrowScreens.Phone</Source>
       <Target>iPhoneShells_SanjayAtPilcrowScreens.Screen_1</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
@@ -94,6 +87,13 @@
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>iPhoneShells_SanjayAtPilcrowScreens.Phone</Source>
+      <Target>iPhoneShells_SanjayAtPilcrowScreens.PhoneFrameiPhone</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
     </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
@@ -142,8 +142,8 @@
   <ViewState>
     <Zoom>1.375</Zoom>
     <Center>
-      <X>-4.8540239942563232</X>
-      <Y>-199.4980982977338</Y>
+      <X>-5.0303325342012215</X>
+      <Y>-293.84647820065919</Y>
     </Center>
   </ViewState>
 </Data>

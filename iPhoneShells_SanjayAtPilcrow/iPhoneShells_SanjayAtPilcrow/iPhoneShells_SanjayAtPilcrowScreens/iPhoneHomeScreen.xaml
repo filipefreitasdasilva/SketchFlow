@@ -24,51 +24,46 @@
 				</VisualState>
 			</VisualStateGroup>
 		</VisualStateManager.VisualStateGroups>
-		<Rectangle x:Name="RectangleScreenBack" HorizontalAlignment="Left" Height="868" Margin="42,132,0,0" VerticalAlignment="Top" Width="504" Fill="White"/>
-		<Image Margin="47,123,53,158" Source="Images/DeviceShells/iPhone/StartBackground.png" Stretch="Fill"/>
-		<local:Phone x:Name="PhoneFrame1" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+		<Grid Margin="36,83,43,0">
+			<Image Source="Images/DeviceShells/iPhone/StartBackground.png" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+		</Grid>
+		<local:Phone x:Name="PhoneFrame1" d:IsPrototypingComposition="True"/>
 		<Grid Margin="61.336,179.332,454.664,800.668">
-			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17" Margin="0,-11,0,0"/>
-			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="0,102,0,-12" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="0,214,0,-124" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="0,325,0,-235" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="0,444,0,-354" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-			<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="0,565,0,-475" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
 			<Grid Margin="99.336,-0.668,-99.336,0.668">
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17" Margin="0,-11,0,0"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="0,102,0,-12" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="0,214,0,-124" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="0,325,0,-235" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="0,444,0,-354" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="0,565,0,-475" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="-72.672,-4.664,0,0"/>
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="38.669,-4.664,-33.669,0"/>
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="149.343,-4.664,-144.343,0"/>
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="260.014,-4.664,-255.014,0"/>
 			</Grid>
-			<Grid Margin="199.336,-0.668,-199.336,0.668">
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17" Margin="-3.5,-11,0,0"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="-3.5,102,0,-12" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="-3.5,214,0,-124" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<Grid Margin="-3.5,325,3.5,-264.637" Cursor="Hand">
+			<Grid Margin="99.336,115.832,-99.336,-115.832">
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="-72.672,-4.664,0,0"/>
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="38.669,-4.664,-33.669,0"/>
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="149.343,-4.664,-144.343,0"/>
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="260.014,-4.664,-255.014,0"/>
+			</Grid>
+			<Grid Margin="99.336,232.832,-99.336,-232.832">
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="-72.672,-4.664,0,0"/>
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="38.669,-4.664,-33.669,0"/>
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="149.343,-4.664,-144.343,0"/>
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="260.014,-4.664,-255.014,0"/>
+			</Grid>
+			<Grid Margin="99.336,349.832,-99.336,-349.832">
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="-72.672,-4.664,0,0"/>
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="38.669,-4.664,-33.669,0"/>
+				<Grid Margin="149.343,-4.664,-144.343,99.664" Cursor="Hand">
 					<i:Interaction.Triggers>
 						<i:EventTrigger EventName="MouseLeftButtonDown">
 							<pi:NavigateToScreenAction TargetScreen="iPhoneShells_SanjayAtPilcrowScreens.AppMainPage"/>
 						</i:EventTrigger>
 					</i:Interaction.Triggers>
-					<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17" Background="#FFA287C3"/>
-					<TextBlock HorizontalAlignment="Left" Margin="3.786,75,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Our App" VerticalAlignment="Top" FontSize="24" Foreground="White"/>
+					<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Background="#FFF59407"/>
+					<Ellipse Fill="#FF7022F7" HorizontalAlignment="Center" Height="40" Margin="0,5,0,0" Stroke="Black" VerticalAlignment="Center" Width="40" StrokeThickness="0"/>
+					<TextBlock HorizontalAlignment="Center" Margin="0,0,0,-24" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Our App" VerticalAlignment="Bottom" Foreground="#FFB6B2B2" FontSize="18.667"/>
 				</Grid>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="-3.5,444,0,-354" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="-3.5,565,0,-475" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17" Margin="89.832,-11,-89.832,0"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="89.832,102,-89.832,-12" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="89.832,214,-89.832,-124" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="89.832,325,-89.832,-235" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="89.832,444,-89.832,-354" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="89.832,565,-89.832,-475" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17" Margin="183.822,-11,-183.822,0"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="183.822,102,-183.822,-12" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="183.822,214,-183.822,-124" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="183.822,325,-183.822,-235" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="183.822,444,-183.822,-354" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
-				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="183.822,565,-183.822,-475" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="75" Radius="17"/>
+			</Grid>
+			<Grid Margin="99.336,466.832,-99.336,-466.832">
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="-72.672,-4.664,0,0"/>
+				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="70" Radius="12" Margin="38.669,-4.664,-33.669,0"/>
 			</Grid>
 		</Grid>
 	</Grid>

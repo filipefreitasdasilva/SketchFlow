@@ -15,3 +15,4 @@ E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\iPhone\i
 E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\iPhone\iPhoneShells_SanjayAtPilcrow\iPhoneShells_SanjayAtPilcrow\iPhoneShells_SanjayAtPilcrowScreens\obj\Debug\PhoneFrameiPhone.g.cs
 E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\iPhone\iPhoneShells_SanjayAtPilcrow\iPhoneShells_SanjayAtPilcrow\iPhoneShells_SanjayAtPilcrowScreens\obj\Debug\iPhoneHomeScreen.g.cs
 E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\iPhone\iPhoneShells_SanjayAtPilcrow\iPhoneShells_SanjayAtPilcrow\iPhoneShells_SanjayAtPilcrowScreens\obj\Debug\iPhoneHomeScreen.baml
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\iPhone\iPhoneShells_SanjayAtPilcrow\iPhoneShells_SanjayAtPilcrow\bin\Debug\Images\DeviceShells\iPhone\StartBackgroundDummy.png

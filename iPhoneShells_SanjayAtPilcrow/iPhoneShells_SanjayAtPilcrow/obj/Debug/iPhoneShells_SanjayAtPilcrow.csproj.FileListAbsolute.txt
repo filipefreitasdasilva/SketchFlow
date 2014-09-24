@@ -53,3 +53,4 @@ E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\iPhone\i
 E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\iPhone\iPhoneShells_SanjayAtPilcrow\iPhoneShells_SanjayAtPilcrow\obj\Debug\iPhoneShells_SanjayAtPilcrow.g.resources
 E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\iPhone\iPhoneShells_SanjayAtPilcrow\iPhoneShells_SanjayAtPilcrow\obj\Debug\iPhoneShells_SanjayAtPilcrow.exe
 E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\iPhone\iPhoneShells_SanjayAtPilcrow\iPhoneShells_SanjayAtPilcrow\obj\Debug\iPhoneShells_SanjayAtPilcrow.pdb
+E:\SAN\DevNBiz\OpenSourceContribution\Prototyping\SketchFlow\Components\iPhone\iPhoneShells_SanjayAtPilcrow\iPhoneShells_SanjayAtPilcrow\bin\Debug\Images\DeviceShells\iPhone\StartBackgroundDummy.png
